@@ -1,0 +1,75 @@
+.btn-container {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 15px;
+  }
+
+  .btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
+
+  .btn-label {
+    text-align: center;
+    font-size: 15px;
+  }
+  .navbut{
+    padding: 20px;
+  }
+  #absen-red{
+    background-color: #a500ff;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 6px;
+  }
+
+  #start-btn{
+    background-color: #01ce60;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 6px;
+  }
+
+  #checkin-btn{
+    background-color: #f2a049;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 6px;
+  }
+
+  #checkout-btn{
+    background-color: #f2a049;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 6px;
+  }
+
+  #finish-btn{
+    background-color: #53dee9;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 6px;
+  }
